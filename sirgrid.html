@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <style>
+        #myGrid {
+            display: grid;
+            /* grid-template-rows: 3;
+            grid-template-columns: 3; */
+            border: 2px solid red;
+            width:100vw;
+            height: 100vh;
+            grid-template: 
+            "a1 a2 a3"
+            "a4 a5 a5"
+            "a6 a5 a5"
+            "a6 a5 a5"
+        }
+
+        #one {
+            grid-area: a1;
+            background-color: peru;
+        }
+
+        #two {
+            grid-area: a2;
+            background-color: orange;
+        }
+
+        #three {
+            grid-area: a3;
+            background-color: green;
+          
+        }
+
+        #four {
+            grid-area: a4;
+            background-color: blue;
+
+        }
+
+        #five {
+            grid-area: a5;
+            background-color: purple;
+
+        }
+
+        #six {
+            grid-area: a6;
+            background-color: pink;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="myGrid">
+
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three">C</div>
+        <div id="four">D</div>
+        <div id="five">E</div>
+        <div id="six">F</div>
+
+    </div>
+
+</body>
+
+</html>
